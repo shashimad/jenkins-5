@@ -1,6 +1,6 @@
 ---
 - name: Installing kafka and it's dependencies
-  hosts: zookeeper:kafka_broker
+  hosts: zookeeper:kafka
   tasks:
   - import_role:
       name: kafka1 
